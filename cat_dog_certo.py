@@ -2,15 +2,15 @@
 # imports
 
 import numpy as np
-import cv2
 import os
 import random
 import matplotlib as plt
 import pickle
+import cv2
 
 #Diretorio, categorias, tamanho
 
-directory = "/content/drive/MyDrive/0_cat_dog_certo_agoravai/datasets"
+directory = "/workspaces/codespaces-blank/cat_dog_certo/datasets"
 categories = ["cats","dogs"]
 img_size = 100
 data = []
@@ -93,9 +93,9 @@ model.fit(x,y,epochs=5,validation_split=0.1, batch_size=32)
 model.save("modelo_gato_cachorro.h5")
 
 # Aqui eu estou chamando a rede neural
+
 from keras.models import load_model
 model = load_model("modelo_gato_cachorro.h5")
-
 
 # Aqui o usuario irá colocar a imagem dele
 
