@@ -14,7 +14,7 @@ git push
 
 
 
-o Token: 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  (Seguro né? kkkk)
+o Token: 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  (Seguro né? kkkk)
 
 
-git remote set-url origin https://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@github.com/Kauetxp/cat_dog_certo
+git remote set-url origin https://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@github.com/Kauetxp/cat_dog_certo
